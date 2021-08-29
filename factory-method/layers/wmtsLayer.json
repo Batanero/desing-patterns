@@ -1,0 +1,9 @@
+{
+    "sourceType": "WMTS",
+    "url": "https://wxs.ign.fr/choisirgeoportail/geoportail/wmts",
+    "targetLayer": "GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2",
+    "projection": "EPSG:3857",
+    "matrixSet": "PM",
+    "format": "image/png",
+    "style": "normal"
+}

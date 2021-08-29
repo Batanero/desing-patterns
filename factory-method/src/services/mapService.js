@@ -2,8 +2,10 @@ import { Map, View } from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
 
-import layer from '../../layers/wmsLayer.json'
 import LayerFactory from './layerFactory/layerFactory';
+
+// import layer from '../../layers/wmsLayer.json'
+import layer from '../../layers/wmtsLayer.json'
 
 export default class MapManager {
     constructor() { }
