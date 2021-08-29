@@ -2,12 +2,7 @@ import { Map, View } from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
 
-import LayerFactory from './layerFactory/layerFactory';
-
-/** Layer sources, uncomment the different 'layers' to test the different data sources */
-import layer from '../../layers/wmsLayer.json' /* WMS Layer */
-// import layer from '../../layers/wmtsLayer.json' /* WMTS Layer */
-// import layer from '../../layers/xyzLayer.json' /* XYZ Layer */
+import layer from '../../layers/wmtsLayer.json' /* WMTS Layer */
 
 export default class MapService {
     constructor() { }
@@ -25,7 +20,5 @@ export default class MapService {
                 zoom: 4
             })
         });
-
-        this.map.addLayer(new LayerFactory().getLayer(layer));
     }
 }
