@@ -7,7 +7,6 @@ export default class WmsLayerAdapter {
             source: new TileWMS({
                 url: layerOptions.url,
                 params: { 'LAYERS': layerOptions.targetLayer, 'TILED': true },
-                transition: 0,
                 crossOrigin: 'anonymous'
             })
         });

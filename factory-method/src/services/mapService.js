@@ -4,10 +4,12 @@ import OSM from 'ol/source/OSM';
 
 import LayerFactory from './layerFactory/layerFactory';
 
-// import layer from '../../layers/wmsLayer.json'
-import layer from '../../layers/wmtsLayer.json'
+/** Layer sources, uncomment the different 'layers' to test the different data sources */
+import layer from '../../layers/wmsLayer.json' /* WMS Layer */
+// import layer from '../../layers/wmtsLayer.json' /* WMTS Layer */
+// import layer from '../../layers/xyzLayer.json' /* XYZ Layer */
 
-export default class MapManager {
+export default class MapService {
     constructor() { }
 
     initMap() {

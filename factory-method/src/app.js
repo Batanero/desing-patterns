@@ -1,5 +1,5 @@
-import MapManager from "./services/mapService";
+import MapService from "./services/mapService";
 
-new MapManager().initMap();
+new MapService().initMap();
 
 
