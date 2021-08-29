@@ -1,7 +1,7 @@
 {
   "name": "factory-method",
   "version": "1.0.0",
-  "description": "Ejemplo de patron de diseño factory-method con Javascript & Openlayers",
+  "description": "Example of factory-method pattern with Javascript & Openlayers",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build --public-url . index.html"
