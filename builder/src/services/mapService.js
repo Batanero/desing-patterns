@@ -2,7 +2,7 @@ import { Map, View } from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
 
-import LayerFactory from '../layerFactory/layerFactory';
+import LayerFactory from './layerFactory/layerFactory';
 
 /** Layer sources, uncomment the different 'layers' to test the different data sources */
 import layer from '../../layers/wmsLayer.json' /* WMS Layer */
