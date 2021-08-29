@@ -1,0 +1,5 @@
+{
+    "sourceType": "WMS",
+    "url": "https://ahocevar.com/geoserver/wms",
+    "targetLayer": "usa:states"
+}

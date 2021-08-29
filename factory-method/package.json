@@ -1,0 +1,16 @@
+{
+  "name": "factory-method",
+  "version": "1.0.0",
+  "description": "Ejemplo de patron de diseño factory-method con Javascript & Openlayers",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "dependencies": {
+    "ol": "^6.6.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "browserslist": "defaults"
+}
