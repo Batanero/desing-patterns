@@ -1,2 +1,4 @@
-# factory-method
-Factory Method Pattern using Javascript &amp; Openlayers
+# builder
+Builder Pattern using Javascript &amp; Openlayers.
+
+Description in process of creation...

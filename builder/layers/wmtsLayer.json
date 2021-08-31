@@ -1,4 +1,6 @@
 {
+    "name": "layer-name",
+    "id": "layer-id",
     "sourceType": "WMTS",
     "url": "https://wxs.ign.fr/choisirgeoportail/geoportail/wmts",
     "targetLayer": "GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2",
