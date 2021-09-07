@@ -50,9 +50,11 @@ Diagrama de clases UML del ejemplo:
 La clase **MapService** inicializará el mapa, leera los parámetros de la capa a añadir de los diferentes archivos JSON y se los pasará a la clase **LayerFactory** para crear la capa. **LayerFactory** recibirá los parámetros de la capa a crear, comprobará el tipo de origen de datos y creará uno de los **ConcreteProduct** disponibles.
 
 Para el comprobara el uso de los diferentes origenes de datos comentamos/descomentamos la lectura de los diferentes archivos JSON dentro de **MapService**.
+
 <img src="images/layers.png"  alt="Layers example" style="padding: 5px;">
 
 Para añadir nuevos origenes de datos se crean nuevos archivos JSON, **ConcreteProduct** y se añade una nueva opción al condicional de la clase **LayerFactory**, respetando así el principio Open/Close.
+
 <img src="images/layerFactory.png"  alt="Layers example" style="padding: 5px;">
 
 # English <img src="images/gbr.svg" width="35">
