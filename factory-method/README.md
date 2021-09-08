@@ -9,7 +9,7 @@
    * [When](#when)
    * [How](#how)
 
-# Español <img src="images/esp.svg" width="35">
+# Español <img src="../images/esp.svg" width="35">
 Patrón Factory Method usando Javascript &amp; Openlayers.
 
 ### Descripción:
@@ -57,7 +57,7 @@ Para añadir nuevos origenes de datos se crean nuevos archivos JSON, **ConcreteP
 
 <img src="images/layerFactory.png"  alt="Layers example" style="padding: 5px;">
 
-# English <img src="images/gbr.svg" width="35">
+# English <img src="../images/gbr.svg" width="35">
 Factory Method Pattern using Javascript &amp; Openlayers.
 
 ### Description:
